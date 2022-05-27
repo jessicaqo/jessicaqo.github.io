@@ -127,7 +127,8 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+    font-size: calc(1.3rem + 0.6vw);
+    color: #FFFFFF;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -6172,14 +6173,15 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
-  text-align: center;
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 212px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 273px;
 }
 
 .carousel-dark .carousel-control-prev-icon,
