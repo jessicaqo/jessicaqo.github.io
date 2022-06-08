@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image: url("imgs/bg.jpg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(165,228,255,0.73);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 3px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+
+#boton{
+	background: #CCC;
+	color: #fff;
+	padding: 20px;
+}
+
+text-right:hover{
+	cursor: pointer;
+}
+
+@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+}

@@ -17,6 +17,7 @@
     margin-left: 0px;
 }
         </style>
+        <link href="css/formulario.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <!-- Navigation-->
@@ -76,43 +77,31 @@
           <tr>
             <td width="411"><p><img src="imagenes/banda.png" width="290" height="145" alt=""/></p>
               <h3>Contáctanos</h3>
-              <p>Teléfono: 8046593 </p>
-              <p>Email: damani_banda@gmail.com</p>
+              <p style="color: #FFFFFF">Teléfono: 8046593 </p>
+              <p style="color: #FFFFFF">Email: damani_banda@gmail.com</p>
             <p>&nbsp;</p></td>
-            <td width="645"><div class="col-md-4">
-              <div class="form-group">
-                <label>Nombre</label>
-                <input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-group"></div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label>Correo Electrónico</label>
-                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
-              </div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label>Edad</label>
-                <input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-group"></div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label>País</label>
-                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
-              </div>
-            </div>
-          </div>
-          <div class="text-right" align=""><br>
-          <a class="btn btn-primary" href="mensaje.html">Enviar Mensaje</a>
-          </div>
-        </form></td>
+            <td width="645">	
+	<form>
+	<p>
+	  <input type="text" name="Nombre" placeholder="Nombre" required>
+	  </p>
+	<p>
+	  <input type="text" name="Correo" placeholder="Correo Electrónico" required>
+	</p>
+	<p>
+	  <input type="text" name="Telefono" placeholder="Teléfono" required>
+	  </p>
+	<p>
+	  <input type="text" name="Edad" placeholder="Edad" required>
+	  </p>
+	<p>
+	  <input type="text" name="Pais" placeholder="País" required>
+	  </p>
+		
+	<div class="text-right" align="">
+	  <a class="btn btn-primary" href="mensaje.html">Enviar Mensaje</a> </div>
+	</form>
+	      </td>
           </tr>
         </tbody>
       </table>
